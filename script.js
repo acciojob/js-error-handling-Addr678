@@ -43,19 +43,19 @@ function evalString(expression) {
 }
 
 // Example usage:
-try {
-  const expression = prompt("Enter an arithmetic expression");
-  const result = evalString(expression);
-  console.log("Result:", result);
-} catch (error) {
-  if (error instanceof SyntaxError) {
-    console.error("Syntax Error:", error.message);
-  } else if (error instanceof InvalidExprError) {
-    console.error("Invalid Expression Error:", error.message);
-  } else if (error instanceof OutOfRangeError) {
-    console.error("Out of Range Error:", error.message);
-  } else {
-    console.error("Unknown Error:", error.message);
-  }
-}
+// try {
+//   const expression = prompt("Enter an arithmetic expression");
+//   const result = evalString(expression);
+//   console.log("Result:", result);
+// } catch (error) {
+//   if (error instanceof SyntaxError) {
+//     console.error("Syntax Error:", error.message);
+//   } else if (error instanceof InvalidExprError) {
+//     console.error("Invalid Expression Error:", error.message);
+//   } else if (error instanceof OutOfRangeError) {
+//     console.error("Out of Range Error:", error.message);
+//   } else {
+//     console.error("Unknown Error:", error.message);
+//   }
+//}
 
